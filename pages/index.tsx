@@ -36,14 +36,21 @@ export default function Home(props) {
 
         <div className={styles.grid}>
           <a
-            href="https://github.com/homebrew/brew/#donations"
             className={styles.card}
+            href="https://github.com/homebrew/brew/#donations"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <h3>Sponsor Homebrew &rarr;</h3>
             <p>Support the awesome work that the Homebrew devs are doing.</p>
           </a>
 
-          <a href="https://www.buymeacoffee.com/ssong" className={styles.card}>
+          <a
+            className={styles.card}
+            href="https://www.buymeacoffee.com/ssong"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>Buy me a coffee? &rarr;</h3>
             <p>If you're feeling generous, you can also buy me a coffee.</p>
           </a>
