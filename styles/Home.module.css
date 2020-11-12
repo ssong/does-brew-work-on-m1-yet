@@ -36,7 +36,6 @@
 }
 
 .title a {
-  color: #0070f3;
   text-decoration: none;
 }
 
@@ -55,6 +54,14 @@
 .title,
 .description {
   text-align: center;
+}
+
+.yay a {
+  color: forestgreen;
+}
+
+.nay a {
+  color: orangered;
 }
 
 .description {
